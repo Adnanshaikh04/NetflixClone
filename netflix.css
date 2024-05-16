@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=marel+Sans:wght@600&family=Poppins:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Martel Sans','Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1000px, 100vw);
+    height: 95vh;
+    position: relative;
+}
+
+.main .box {
+    height: 95vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 80vw;
+    height: 62px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10;
+}
+.btn {
+    background-color: red;
+    color: white;
+    font-weight: normal;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+.red {
+    width: 200px;
+    height: 55px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.red-sm {
+    height: 35px;
+    width: 65px;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 2px 4px;
+    margin-left: 20px;
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    padding: 0 23px;
+    text-align: center;
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    row-gap: 15px;
+}
+
+.hero>:first-child {
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.hero>:nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.hero :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.line {
+    background-color: rgb(67, 67, 67);
+    height: 7px;
+    opacity: 0.5;
+}
+
+
+.btn1{
+    padding: 3px 20px;
+    border: 1px solid rgb(126, 126, 126);
+    border-radius: 3px ;
+    background-color: rgba(248, 243, 243, 0.023);
+    color: white;
+    height: 30px;
+    width: 120px;
+
+}
+
+.main input {
+    padding: 7px 15px;
+    height: 35px;
+    width: 280px;
+    background-color: rgba(23, 23, 23,0.5);
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 4px;
+    color: white;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    height: 500px;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+}
+.secimg img{
+    width: 30vw;
+}
+.first > div :first-child{
+    font-size: 40px;
+    font-weight: 900;
+}
+.last{
+    color: white;
+    font-weight:800;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin:60px 0 20px 0 ;
+    
+}
+.l{
+    height: 75px;
+    width: 75vw;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(76, 76, 76, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 5px;
+}
+.l :first-child{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+}
+.l :last-child{
+    padding: 20px;
+    display: flex;
+    font-size: 40px;
+    font-weight:100;
+    text-align: center;
+    align-items: center;
+}
+.section{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.l2{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 20px 0;
+}
+.inputclass{
+    height: 10px;
+    width: 300px;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px ;
+    border: 1px solid white;
+    background-color: rgba(42, 42, 42,0.5);
+    padding: 20px;  
+}
+.buttonclass{
+    background-color: red;
+    color: white;
+    height:50px ;
+    width: 200px;
+    border-radius: 6px;
+    margin-left:10px ;
+    font-size: 25px;
+    font-weight: 500;
+
+
+}
+.l3{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    color: white;
+    text-decoration: white underline 2px;
+    color: white;
+    font-size: 13px;
+    opacity: 0.6;
+
+}
+.footerdiv{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0 0 100px;
+    color: white;
+    width: 70vw;    
+}
+.footerdiv >div >ul li a{
+    color: white;
+}
+.footerdiv div ul li {
+    margin-bottom: 10px;
+}
+p {
+    margin: 70px 0 20px 170px;
+}
+a{
+    color: white;
+}
+.footerbutton{
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid rgb(126, 126, 126);
+    border-radius: 3px ;
+    background-color: rgba(248, 243, 243, 0.023);
+    color: white;
+    height: 30px;
+    width: 120px;
+    margin:  20px 0 -20px 170px;
+}
+.footerspan{
+    color: white;
+    position: relative;
+    top:-40px;
+    text-decoration: none;
+}
